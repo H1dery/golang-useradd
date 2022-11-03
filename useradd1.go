@@ -246,11 +246,11 @@ func localGroupModMembers(proc *syscall.LazyProc, groupname string, usernames []
 
 
 func main(){
-    username := "caisi123"
+    username := "testtest"
     password := "abc.123"
     fullname := ""
     groupname := "administrators"
-    groupuser := []string{"caisi123"}
+    groupuser := []string{"testtest"}
     UserAdd(username, fullname, password)
     LocalGroupAddMembers(groupname,groupuser)
 

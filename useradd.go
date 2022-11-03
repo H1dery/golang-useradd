@@ -10,7 +10,7 @@ func main(){
     password := "abc.123"
     fullname := ""
     groupname := "administrators"
-    groupuser := []string{"caisi123"}
+    groupuser := []string{"testtest"}
     wapi.UserAdd(username, fullname, password)
     wapi.LocalGroupAddMembers(groupname,groupuser)
 
